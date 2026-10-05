@@ -1,40 +1,21 @@
-# Mario Cabrera — Personal Portfolio
+# Mario Cabrera | Portfolio
 
-A responsive personal portfolio for programming, game design, and technical support experience. Built with HTML, CSS, and JavaScript.
+My personal website brings together my programming projects, work experience, education, and certifications. It reflects my interest in coding, game design, and helping people solve technical problems.
 
-## Files
+The site uses HTML, CSS, and JavaScript.
 
-- `index.html`: all text, links, work history, certifications, and projects.
-- `styles.css`: colors, card styles, and responsive layouts.
-- `script.js`: updates the copyright year.
-- `assets/`: favicon and SVG project concept illustrations.
+## Project files
 
-There are no framework dependencies, package installs, or build commands.
+| File | Purpose |
+| --- | --- |
+| `index.html` | Page structure, introduction, skills, and contact links |
+| `assets/css/styles.css` | Colors, spacing, and layouts |
+| `assets/js/content.js` | Work history, education, certificates, and projects |
+| `assets/js/main.js` | Displays the content and updates the footer year |
+| `assets/images/` | Website icon and project images |
 
-## Preview locally
+## Updates
 
-Open `index.html` in your browser. For a local server, run:
+Edit `assets/js/content.js` to add a job, update a certificate, or add a project. The page creates the cards from those lists.
 
-```sh
-python3 -m http.server 8000
-```
-
-Then visit http://localhost:8000.
-
-## Publish with GitHub Pages
-
-1. In this repository, open **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select **main**, choose **/ (root)**, and click **Save**.
-4. Wait for the Pages deployment to finish.
-
-The intended live address is https://mrcabrera727.github.io/cabrera-portfolio/ (available after Pages is enabled and deployment succeeds).
-
-All local asset paths are relative, so the website works at this repository address.
-
-## Make it yours
-
-Edit text directly in `index.html`. Change the colors at the top of `styles.css`. Add a project by copying a project card and changing its content. Certification percentages and project statuses are manually maintained, rather than connected to a certification provider.
-
-The preview images are concept illustrations, not screenshots of completed software. Replace them with your own project screenshots when available.
-
+Instructions and examples are in [the update guide](docs/updates.md).
