@@ -90,7 +90,8 @@ const portfolioContent = {
         "GitHub"
       ],
       "image": "./assets/images/dungeon.svg",
-      "url": ""
+      "url": "https://github.com/mrcabrera727/2D-Dungeon-Crawler",
+      "linkLabel": "View source"
     },
     {
       "title": "Network Scanner",
@@ -103,7 +104,8 @@ const portfolioContent = {
         "CLI"
       ],
       "image": "./assets/images/network.svg",
-      "url": ""
+      "url": "https://github.com/mrcabrera727/Network-Scanner",
+      "linkLabel": "View source"
     },
     {
       "title": "Personal Portfolio Website",
