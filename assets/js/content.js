@@ -90,7 +90,7 @@ const portfolioContent = {
         "GitHub"
       ],
       "image": "./assets/images/dungeon.svg",
-      "url": "https://github.com/mrcabrera727/2D-Dungeon-Crawler",
+      "url": "https://github.com/mctechnologys/2D-Dungeon-Crawler",
       "linkLabel": "View source"
     },
     {
@@ -104,7 +104,7 @@ const portfolioContent = {
         "CLI"
       ],
       "image": "./assets/images/network.svg",
-      "url": "https://github.com/mrcabrera727/Network-Scanner",
+      "url": "https://github.com/mctechnologys/Network-Scanner",
       "linkLabel": "View source"
     },
     {
@@ -118,7 +118,7 @@ const portfolioContent = {
         "JavaScript"
       ],
       "image": "./assets/images/portfolio.svg",
-      "url": "https://github.com/mrcabrera727/cabrera-portfolio",
+      "url": "https://github.com/mctechnologys/cabrera-portfolio",
       "linkLabel": "View source"
     }
   ]
