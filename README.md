@@ -1,6 +1,6 @@
 # Mario Cabrera — Personal Portfolio
 
-A responsive personal portfolio for programming, game design, and technical support experience. Rebuilt with plain HTML, CSS, and a small JavaScript file, using the original [Cabrera Development portfolio](https://github.com/mrcabrera727/cabreradevelopment) as a design reference.
+A responsive personal portfolio for programming, game design, and technical support experience. Built with HTML, CSS, and JavaScript.
 
 ## Files
 
