@@ -113,7 +113,7 @@ h1 span { background: var(--gradient); background-clip: text; color: transparent
   min-width: 0;
   min-height: 3rem;
   padding: 0.75rem;
-  border-radius: 0.5rem;
+  border-radius: 99rem;
   text-align: center;
 }
 .hero-intro, .contact-copy { min-width: 0; }
