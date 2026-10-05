@@ -36,8 +36,5 @@ All local asset paths are relative, so the website works at this repository addr
 
 Edit text directly in `index.html`. Change the colors at the top of `styles.css`. Add a project by copying a project card and changing its content. Certification percentages and project statuses are manually maintained, rather than connected to a certification provider.
 
-The preview images are concept illustrations, not screenshots of completed software. Replace them with your own project screenshots when available. Review project descriptions and progress before sharing the site with employers.
+The preview images are concept illustrations, not screenshots of completed software. Replace them with your own project screenshots when available.
 
-## Development
-
-This version was built with AI assistance. Customize and understand the code before describing your personal contributions in applications or interviews.
