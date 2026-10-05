@@ -100,7 +100,23 @@ section { scroll-margin-top: 2.5rem; }
 h1 { font-size: 3rem; line-height: 1; font-weight: 700; }
 h1 span { background: var(--gradient); background-clip: text; color: transparent; }
 .tagline { max-width: 28rem; text-wrap: pretty; }
-.contact-links { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; }
+.contact-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 0.75rem;
+  width: 100%;
+  min-width: 0;
+}
+.contact-links .button {
+  width: 100%;
+  min-width: 0;
+  min-height: 3rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.hero-intro, .contact-copy { min-width: 0; }
 .button {
   display: inline-flex;
   align-items: center;
@@ -218,12 +234,13 @@ progress::-moz-progress-bar { background: var(--card-ink); border-radius: 99rem;
 }
 @media (min-width: 768px) {
   .hero-content { flex-direction: row; align-items: flex-end; justify-content: space-between; }
-  .hero .contact-links { flex-shrink: 0; max-width: 15rem; justify-content: flex-end; }
+  .hero .contact-links { flex: 0 0 20rem; width: 20rem; max-width: 45%; }
   .about-layout { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); align-items: start; }
   .skills-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .experience-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .contact { flex-direction: row; align-items: center; justify-content: space-between; }
-  .contact .contact-links { flex: 1; }
+  .contact-copy { flex: 1; }
+  .contact .contact-links { flex: 0 0 20rem; width: 20rem; max-width: 50%; }
 }
 @media (min-width: 1024px) {
   .project-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
